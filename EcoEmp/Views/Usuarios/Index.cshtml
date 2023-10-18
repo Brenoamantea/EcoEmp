@@ -24,6 +24,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Telefone)
             </th>
+            
             <th></th>
         </tr>
     </thead>
@@ -42,6 +43,7 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Telefone)
             </td>
+             
             <td>
                 <a  class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
                 <a  class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Visualizar</a> |

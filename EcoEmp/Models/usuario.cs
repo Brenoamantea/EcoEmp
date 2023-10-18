@@ -22,5 +22,7 @@ namespace EcoEmp.Models
         [Required(ErrorMessage = "Obrigatório informar o telefone!")]
         public string Telefone { get; set; }
 
+       
+
     }
 }
