@@ -10,9 +10,16 @@ namespace EcoEmp.Models
         [Key]
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "Obrigatório informar o nome!")]
         public string Nome { get; set; }
+
+        [Required(ErrorMessage = "Obrigatório informar o login!")]
         public string Login { get; set; }
+
+        [Required(ErrorMessage = "Obrigatório informar a senha!")]
         public string Senha { get; set; }
+
+        [Required(ErrorMessage = "Obrigatório informar o telefone!")]
         public string Telefone { get; set; }
 
     }
